@@ -1,4 +1,0 @@
-ADD
-- background
-- tasklist & task system
-- warnings & complaints sidelist
