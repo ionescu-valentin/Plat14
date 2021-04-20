@@ -1,0 +1,5 @@
+ADD
+- hide button on hover
+- link to teammates profiles
+- admin panel button
+- about info

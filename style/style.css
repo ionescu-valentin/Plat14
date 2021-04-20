@@ -1,0 +1,324 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+
+.regButton {
+  width: 6rem;
+}
+
+.headerLabel {
+  display: inline-block;
+  width: 5rem;
+}
+
+.showAll_text {
+  display: inline-block;
+  padding-left: 7rem;
+  margin-left: 10%;
+  width: 20rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.btn-flat {
+  box-sizing: content-box;
+  border-radius: 0.2rem;
+}
+
+.btn-flat:hover {
+  color: #01579b;
+  border: 1px solid #01579b;
+}
+
+li::selection,
+a::selection,
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+span::selection,
+img::selection,
+br::selection,
+div::selection,
+i::selection {
+  background: transparent;
+}
+
+#profile_view {
+  z-index: 100;
+}
+
+#profile_view div {
+  width: 8rem;
+  height: 3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10%;
+  margin: 0.7rem 2rem 0 0;
+}
+
+#avatars_container .row div {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1.5rem;
+  border-radius: 100%;
+  background-color: rgb(253, 221, 175);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#avatars_container .row div:hover {
+  background-color: rgb(255, 194, 109);
+}
+
+#avatars_container img,
+#profile_view img,
+.respo-members img {
+  width: 2.5rem;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.icons_list li {
+  margin-bottom: 0.3rem;
+}
+
+.icons_list .material-icons {
+  display: inline-flex !important;
+  vertical-align: text-bottom !important;
+}
+
+.icons_list a {
+  font-weight: 450;
+  font-size: 1.2rem;
+}
+
+.profile-pic {
+  width: 10rem;
+}
+
+/* Team Navbar */
+.tabs-transparent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* @media only screen and (max-width: 1000px) {
+  .tabs-nav {
+    width: 80rem;
+  }
+  #general-view {
+    margin: 6rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .tabs-nav {
+    width: 83rem;
+  }
+  .tabs-nav .nav-wrapper {
+    padding-left: 10rem;
+  }
+  #general-view {
+    margin: 4rem;
+  }
+} */
+
+/* Navbar */
+
+.tabs-nav {
+  height: 6.5rem;
+  line-height: 30px;
+  z-index: 999;
+}
+
+.tabs-nav i,
+.tabs-nav [class^="mdi-"],
+.tabs-nav [class*="mdi-"],
+.tabs-nav i.material-icons {
+  height: 30px;
+  line-height: 30px;
+}
+
+.tabs-nav .button-collapse i {
+  height: 30px;
+  line-height: 30px;
+}
+
+.tabs-nav .brand-logo {
+  font-size: 1.6rem;
+}
+
+/* @media only screen and (min-width: 601px) {
+  .tabs-nav,
+  .tabs-nav .nav-wrapper i,
+  .tabs-nav a.button-collapse,
+  .tabs-nav a.button-collapse i {
+    height: 30px;
+    line-height: 30px;
+  }
+} */
+
+.tabs-nav .nav-wrapper {
+  padding-top: 0.7rem;
+}
+
+.tabs-nav .nav-wrapper .brand-logo {
+  padding-right: 0.8rem !important;
+}
+
+#browsing-tabs {
+  height: 0px;
+  width: inherit;
+  position: absolute;
+}
+
+.tabs {
+  position: relative;
+  top: -3.3rem;
+}
+
+#profile-btn {
+  margin-right: 1rem;
+}
+
+/* Team page */
+#team-view {
+  margin-top: 2rem;
+}
+
+.tabs-content.carousel.carousel-slider .carousel-item.active {
+  position: relative;
+}
+
+.tabs-content {
+  height: auto !important;
+  min-height: 100%;
+}
+
+/* Sidebar */
+#team-info {
+  height: 100%;
+  width: 15rem;
+  padding: 1rem 1rem;
+  position: fixed;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Team General content */
+#card_color option i:nth-child(0) {
+  color: red;
+}
+
+.projectCard {
+  width: 25rem;
+  cursor: pointer;
+}
+
+.projectCard .card-action .transparent {
+  color: transparent;
+}
+
+.projectCard .row {
+  margin-bottom: 0;
+}
+
+.projectCard .card-content {
+  padding: 10px 20px 5px 20px;
+}
+
+.projectCard .card-action {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.8rem 1rem;
+}
+
+.respo-members .col {
+  padding: 0;
+}
+
+.respo-member {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 100%;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progressBar .progress {
+  min-height: 36px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+}
+
+.progressBar .determinate {
+  padding: 8px;
+  position: relative;
+  color: #fff;
+  text-align: right;
+  white-space: nowrap;
+  height: 100%;
+  animation: grow 2s;
+}
+
+@keyframes grow {
+  from {
+    width: 0;
+  }
+}
+
+.projectModal {
+  max-width: 80vw;
+  width: 80vw;
+  max-height: 80vh;
+}
+
+.modal_options .col {
+  padding: 0 !important;
+}
+
+.modal_options h6:not(.collection-item) {
+  margin: 1rem 0 2rem 0 !important;
+}
+
+.projectModal .add_itemBlock {
+  padding: 10px !important;
+}
+
+.projectModal .collection-item .row,
+.projectModal .collection-item .row .col input {
+  margin: 0 !important;
+}
+
+.option_names,
+.option_names .collection-item {
+  width: 5rem !important;
+}
+
+#option-name {
+  margin-bottom: 3rem;
+}

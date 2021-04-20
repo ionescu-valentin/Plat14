@@ -1,0 +1,9 @@
+ADD
+- animatie swipe
+- add event on click
+- view event on hover
+- legendă pt tipuri de eventuri (task/DL/sedinta/event)
+
+FIX
+- redimensionare/repoziționare
+- redesign
